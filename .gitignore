@@ -1,3 +1,4 @@
 .vagrant
 .python_dist_packages
 .package_cache
+.DS_Store
