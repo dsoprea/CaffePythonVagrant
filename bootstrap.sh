@@ -50,6 +50,6 @@ echo "export PYTHONPATH=.:/caffe/python" >> /etc/environment
 ## Install ipython
 
 pip install -r /caffe/python/requirements.txt
-pip install "ipython[notebook]"
+pip install pyzmq jinja2 tornado jsonschema "ipython[all]"
 
-echo "alias n='ipython notebook --ip=0.0.0.0 --no-browser --notebook-dir=/caffe/examples'" >> /home/vagrant/.bashrc
+echo "alias n='python -m IPython notebook --ip=0.0.0.0 --no-browser --notebook-dir=/caffe/examples'" >> /home/vagrant/.bashrc
