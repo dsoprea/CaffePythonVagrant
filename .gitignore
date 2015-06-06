@@ -1,0 +1,3 @@
+.vagrant
+.python_dist_packages
+.package_cache
